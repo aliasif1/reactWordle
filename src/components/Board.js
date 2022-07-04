@@ -6,7 +6,6 @@ const WORDS = ['HELLO', 'SNAKE', 'FIELD', 'ARROW', 'BLACK', 'WHITE', 'LOWER', 'U
 
 const Board = () => {
     const [SOL,setSOL] = useState(); // the word to guess
-    console.log(SOL);
     const [guesses, setGuesses] = useState(Array(MAX_GUESSES).fill(""));
     const [currentGuessIndex, setCurrentGuessIndex] = useState(0)
     let currentWord = guesses[currentGuessIndex];
