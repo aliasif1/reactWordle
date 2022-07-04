@@ -1,13 +1,90 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: whitesmoke;
+}
+
+.container{
+  margin-top: 5vh;
+}
+
+.board{
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  /* border: 0.5px solid grey; */
+}
+
+
+.title{
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.guess-grid{
+  padding-top: 20px;
+}
+
+.word{
+  display: flex;
+  justify-content: center;
+}
+
+.alphabet {
+  margin: 4px;
+  height: 50px;
+  width: 50px;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.found{
+  background-color: grey;
+}
+
+.match{
+  background-color: greenyellow;
+}
+
+
+.keyboard{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.keyboard-line{
+  display: flex;
+  justify-content: center;
+}
+
+.keyboard-letter{
+  height: 40px;
+  min-width: 30px;
+  margin: 3px 2px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border: 0.5px solid grey;
+  border-radius: 2px;
+}
+
+.keyboard-letter:hover{
+  cursor: pointer;
+  background-color: honeydew;
 }
