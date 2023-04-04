@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.a249b3c5.css",
+    "main.js": "/react-gh-pages/static/js/main.bfffb642.js",
+    "index.html": "/react-gh-pages/index.html",
+    "main.a249b3c5.css.map": "/react-gh-pages/static/css/main.a249b3c5.css.map",
+    "main.bfffb642.js.map": "/react-gh-pages/static/js/main.bfffb642.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a249b3c5.css",
+    "static/js/main.bfffb642.js"
+  ]
+}
