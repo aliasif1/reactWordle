@@ -1,5 +1,5 @@
 # Wordle Game with React
-- Webiste Link: [Demo](https://aliasif1.github.io/reactWordle/)
+- Live Link: [Demo](https://aliasif1.github.io/reactWordle/)
 
 ## Install and Setup
 ```
