@@ -1,5 +1,5 @@
 const words = [
-    "apple", "baker", "crown", "drone", "eagle", "flour", "grape", "happy", "igloo", "jolly", "kayak", "lemon", "mango", "ninja", "olive", "piano", "queen", "robot", "sugar", "tiger", "umbra", "viper", "waste", "xenon", "yacht", "zebra", "apron", "beast", "chair", "dance", "evoke", "fable", "ghost", "hedge", "inert", "jewel", "knack", "leash", "meant", "novel", "ocean", "pilot", "quake", "rider", "siren", "table", "under", "vivid", "worry", "xerox", "youth", "zesty"
+    "APPLE", "BAKER", "CROWN", "DRONE", "EAGLE", "FLOUR", "GRAPE", "HAPPY", "IGLOO", "JOLLY", "KAYAK", "LEMON", "MANGO", "NINJA", "OLIVE", "PIANO", "QUEEN", "ROBOT", "SUGAR", "TIGER", "UMBRA", "VIPER", "WASTE", "XENON", "YACHT", "ZEBRA", "APRON", "BEAST", "CHAIR", "DANCE", "EVOKE", "FABLE", "GHOST", "HEDGE", "INERT", "JEWEL", "KNACK", "LEASH", "MEANT", "NOVEL", "OCEAN", "PILOT", "QUAKE", "RIDER", "SIREN", "TABLE", "UNDER", "VIVID", "WORRY", "XEROX", "YOUTH", "ZESTY"
 ];
 
 export default words;
