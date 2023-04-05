@@ -1,6 +1,7 @@
 # Wordle Game with React
+- Webiste Link: [Demo](https://aliasif1.github.io/reactWordle/)
 
-## Steps
+## Install and Setup
 ```
 git clone https://github.com/aliasif1/reactWordle.git 
 ```
