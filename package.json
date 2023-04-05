@@ -1,6 +1,7 @@
 {
   "name": "react_wordle",
   "version": "0.1.0",
+  "homepage": "http://aliasif1.github.io/reactWordle",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
