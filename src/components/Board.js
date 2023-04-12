@@ -133,7 +133,7 @@ const Board = () => {
                 onClose={() => {setShowSnackbar(false)}}
             />
             <div className="board">
-                <h1 className="title">WORDLE</h1>
+                <h1 className="title">WORDLE++</h1>
                 <div className="guess-grid">
                     {
                         guesses.map((guess, guessIndex) => {
